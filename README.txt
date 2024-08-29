@@ -3,8 +3,8 @@ conda install python=3.6.6 numpy=1.19.2 scikit-learn=0.23.2 cloudpickle=1.6.0 pa
 pip install nonconformist==1.2.5
 
 # Data download
-Download assaydata from Pubchem, e.g. AID_xxx_datatable.csv
-Create a tab separated file with cid or sid identifiers followed by SMILES (<smiles_file>)
+Download assaydata from PubChem, e.g. AID_xxx_datatable.csv
+Create a tab separated file with SMILES followed by cid or sid identifiers (<smiles_file>) covering the entries in AID_xxx_datatable.csv
 
 # SMILES standardization
 python rdkit_standardizer3.py <smiles_file> t s n
